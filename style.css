@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5e9e1;
+}
+.container {
+  margin: 0 auto;
+  width: 490px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f5e9e1;
+}
+/* .pic {
+  width: 250px;
+  /* height: 800px; */
+
+.pic img {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
+.pricebox {
+  width: 240px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.3rem;
+  background-color: white;
+}
+.logo {
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: 0.4rem;
+  font-size: 0.6rem;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pricebox h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+}
+.parfume_text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.saleprice {
+  font-size: 2rem;
+  color: #1a7f3f;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.firstprice {
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  font-weight: 500;
+  color: grey;
+}
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #1a7f3f;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.cart {
+  padding-left: 0.5rem;
+}
+@media (max-width: 479.9px) {
+  .container {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .pic {
+    width: 330px;
+    height: 200px;
+  }
+  .pic img {
+    width: 100%;
+    height: 200px;
+  }
+  .pricebox {
+    width: 330px;
+    height: auto;
+  }
+  .pricebox h1 {
+    font-size: 1.9rem;
+    font-weight: 900;
+  }
+  .parfume_text {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  button {
+    width: 290px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: red;
+  }
+  .pic {
+    width: 400px;
+    height: 200px;
+  }
+  .pic img {
+    width: 400px;
+    height: 202px;
+  }
+  .pricebox {
+    width: 400px;
+    height: auto;
+  }
+  .logo {
+    text-transform: uppercase;
+    color: grey;
+    letter-spacing: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  .pricebox h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .parfume_text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .saleprice {
+    font-size: 2.1rem;
+    color: #1a7f3f;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  .firstprice {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: 500;
+    color: grey;
+  }
+  button {
+    width: 100%;
+    height: 45px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+}
